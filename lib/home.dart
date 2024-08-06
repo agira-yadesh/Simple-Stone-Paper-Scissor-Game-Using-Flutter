@@ -70,9 +70,9 @@ class _HomeState extends State<Home> {
                   TextButton(
                     onPressed: player1,
                     style: const ButtonStyle(
-                      backgroundColor: MaterialStatePropertyAll(Colors.blue),
-                      fixedSize: MaterialStatePropertyAll(Size(120, 40)),
-                      shape: MaterialStatePropertyAll(
+                      backgroundColor: WidgetStatePropertyAll(Colors.blue),
+                      fixedSize: WidgetStatePropertyAll(Size(120, 40)),
+                      shape: WidgetStatePropertyAll(
                         RoundedRectangleBorder(
                           borderRadius: BorderRadius.all(Radius.circular(12)),
                         ),
@@ -120,9 +120,9 @@ class _HomeState extends State<Home> {
                     TextButton(
                       onPressed: player2,
                       style: const ButtonStyle(
-                        backgroundColor: MaterialStatePropertyAll(Colors.blue),
-                        fixedSize: MaterialStatePropertyAll(Size(120, 40)),
-                        shape: MaterialStatePropertyAll(
+                        backgroundColor: WidgetStatePropertyAll(Colors.blue),
+                        fixedSize: WidgetStatePropertyAll(Size(120, 40)),
+                        shape: WidgetStatePropertyAll(
                           RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(Radius.circular(12)),
                           ),
